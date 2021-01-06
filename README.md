@@ -1,6 +1,6 @@
 # 食用方法
 - 安装python3
-- python srcs/xxx.py
+- python src/xxx.py
 
 脚本       | 作用
 :------------------| :------------------
