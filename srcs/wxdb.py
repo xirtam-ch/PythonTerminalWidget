@@ -7,11 +7,9 @@ source = """
 key = '0x' + ''.join(i.partition(':')[2].replace('0x', '').replace(' ', '') for i in source.split('\n')[1:5])
 print(key)
 
-#0x4cca13755e0e4bb7889b7cc7b6aa4dca7cfd38ac165c47089fa331a97d29bf9e
-
 # lldb -p $(pgrep WeChat)
 # br set -n sqlite3_key
 # c
-# 登陆Mac
+# 登陆Mac微信
 # memory read --size 1 --format x --count 32 $rsi
 # sqlite3 rawkey
